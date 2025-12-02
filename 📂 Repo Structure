@@ -1,0 +1,15 @@
+genai-private-access/
+├─ README.md
+├─  openai/
+│   ├─  private-endpoint.bicep
+│   ├─  role-assignments.json
+├─ retrieval-augmented-generation/
+│    ├─ cognitive-search.bicep
+│    ├─ index-setup.ps1
+│    ├─ rag-app/
+│    │   ├─  api/
+│   │    │   ├─  server.py
+│   │    ├─ clients/
+│    │   │    ├─ cli.py
+│    ├─ benchmark/
+│    │   ├─  eval-metrics.md
